@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import React from 'react'
-import { SocialIcon } from 'react-social-icons';
 import { urlFor } from '../sanity';
 import { Project } from '../typings';
 
@@ -28,8 +26,8 @@ function Projects({ projects }: Props) {
 
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin'>
             {projects?.map((project,i) => (
-              // eslint-disable-next-line react/jsx-key
               <div
+              key={project._id}
                className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44 xl:w-[860px] h-screen'>
                 <motion.img
                   initial={{
