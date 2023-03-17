@@ -38,7 +38,7 @@ function About({pageInfo}: Props) {
        viewport={{
         once:true
       }}
-       src={urlFor(pageInfo?.profilePic).url()}/>
+       src="https://pps.whatsapp.net/v/t61.24694-24/299448188_381211900755151_6745586857079759047_n.jpg?ccb=11-4&oh=01_AVwQRoLmdR1t-bpx9DSNyoz8VoBquLPpznVYsVIYVduU5g&oe=63434D4B" alt="" />
        <div className='space-y-10 px-2 md:px-10'>
         <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span> background</h4>
         <p className='text-sm'>Currently I am in 4th year(current GPA: 9) of B.Tech in Information Technology. I am pursuing it from Dr.Akhilesh Das Gupta Institute of Technology and Management under GGSIPU. 
